@@ -1,0 +1,31 @@
+<ul>
+  <p>Produtos:</p>
+  <li *ngFor="let p of produtos; let i = index"
+  (click)="remover(i)">
+    {{ i }} - {{ p }}
+    </li>
+    <button (click)="adicionar()">Adicionar</button>
+</ul>
+<div [ngSwitch]="menuType">
+  <div *ngSwitchDefault>
+    <ul>
+      <li>editar perfil</li>
+      <li>adicionar cartão</li>
+    </ul>
+  </div>
+  <div *ngSwitchCase="'admin'">
+    <ul>
+      <li>editar perfil</li>
+      <li>adicionar cartão</li>
+      <li>gerenciar usuários</li>
+    </ul>
+  </div>
+  <div *ngSwitchCase="'superuser'">
+    <ul>
+      <li>editar perfil</li>
+      <li>adicionar cartão</li>
+      <li>gerenciar usuários</li>
+      <li>gerenciar admins</li>
+    </ul>
+  </div>
+</div>
