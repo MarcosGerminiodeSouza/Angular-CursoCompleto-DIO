@@ -1,5 +1,6 @@
-# DIO| Começando no Framework Angular
-Copilado de cursos do Felipe aguiar dentro da DIO, Começando no Framework Angular. Confira:
+# Começando no Framework Angular
+
+## Cursos de Angular por Felipe Aguiar, dentro da Digital Inovation One: Começando no Framework Angular
 - Curso 01: Aprendendo fazer componentes
 - Curso 02 ao 04: Aprendendo usar o TypeScript
 - Curso 05: Aprendendo usar o StackBlitz
